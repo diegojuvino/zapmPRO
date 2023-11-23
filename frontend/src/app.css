@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins';font-size: 22px;
+}
+
+@keyframes btnAnnouncement {
+  0% { opacity: 0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+.btnAnnouncement {
+background-color:#ce300c;
+color:#ce300c !important;
+padding: 0.6em 0.8em;
+display: inline-block;
+text-decoration: none;
+border-radius: 4px; 
+-webkit-animation: btnAnnouncement .9s linear infinite;
+-moz-animation: btnAnnouncement .9s linear infinite;
+-ms-animation: btnAnnouncement .9s linear infinite;
+-o-animation: btnAnnouncement .9s linear infinite;
+animation: btnAnnouncement .9s linear infinite;
+}
+
+
+.btnNoAnnouncement {
+  color: rgb(0 0 0) !important
+}
+
+.MuiContainer-maxWidthLg {
+    max-width: 2000px !important;
+}
+.makeStyles-mainPaper {
+    flex: 1;
+    padding: 8px;
+    overflow-y: scroll;
+    border-radius: 10px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+}
+.makeStyles-drawerPaper-9 {
+    background-color: #FAFAFA !important;
+}
+.MuiButton-containedPrimary {
+    color: #fff;
+    background-color: #252627 !important;
+}
+
+.MuiButton-containedPrimary:hover {
+    color: #fff;
+    background-color: #131414 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
